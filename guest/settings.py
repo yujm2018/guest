@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sign', #添加sign应用
-    'bootstrap3'
+    'bootstrap4'
 ]
 
 MIDDLEWARE = [
@@ -86,7 +86,7 @@ DATABASES = {
             'ENGINE': 'django.db.backends.mysql',
             'HOST': '127.0.0.1',
             'PORT': '3306',
-            'NAME': 'guest_test',
+            'NAME': 'guest',
             'USER': 'root',
             'PASSWORD': 'root',
             'OPTIONS':  {
